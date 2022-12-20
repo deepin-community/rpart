@@ -1,0 +1,23 @@
+Source: rpart
+Section: gnu-r
+Priority: optional
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Build-Depends: debhelper (>= 7.0.0), r-base-dev (>= 3.6.1), dh-r, r-cran-survival (>= 2.13.2)
+Standards-Version: 4.4.0
+Vcs-Browser: https://salsa.debian.org/edd/r-cran-rpart
+Vcs-Git: https://salsa.debian.org/edd/r-cran-rpart.git
+Homepage: https://cran.r-project.org/package=rpart
+
+Package: r-cran-rpart
+Architecture: any
+Depends: ${R:Depends}, ${shlibs:Depends}, ${misc:Depends}, r-cran-survival
+Replaces: r-recommended (<< 1.9.0)
+Description: GNU R package for recursive partitioning and regression trees
+ This package provides functions to recursive partitioning and regression
+ trees.
+ .
+ This package is part of the set of packages that are 'recommended' 
+ by R Core and shipped with upstream source releases of R itself.
+ .
+ URL (of the S-Plus original): http://www.mayo.edu/hsr/Sfunc.html
+

@@ -1,0 +1,486 @@
+rpart (4.1-15-2-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Thu, 24 Nov 2022 07:20:44 +0800
+
+rpart (4.1-15-2) unstable; urgency=medium
+
+  * Source-only upload
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+  * debian/control: Switch to ${R:Depends} now that dh-r is fixed
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 18 Aug 2019 06:35:43 -0500
+
+rpart (4.1-15-1) unstable; urgency=medium
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 13 Apr 2019 09:03:30 -0500
+
+rpart (4.1-13-1.1) unstable; urgency=medium
+
+  * (Inofficial) Rebuild for R 3.5.0
+
+  * Manual override for ${R:Depends} while dh-r is looked at
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  * debian/control: Add Vcs-Browser: and Vcs-Git:
+  * debian/control: Switch from cdbs to dh-r
+  * debian/rules: Idem
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 28 Apr 2018 15:16:22 -0500
+
+rpart (4.1-13-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 23 Feb 2018 07:05:23 -0600
+
+rpart (4.1-12-1) unstable; urgency=medium
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  * debian/compat: Set level to 9
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 20 Jan 2018 17:04:18 -0600
+
+rpart (4.1-11-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Add Depends: on ${misc:Depends}
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 21 Apr 2017 11:33:42 -0500
+
+rpart (4.1-10-2) unstable; urgency=medium
+
+  * debian/compat: Created			(Closes: #830340)
+ 
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 08 Jul 2016 06:40:47 -0500
+
+rpart (4.1-10-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 30 Jun 2015 08:50:46 -0500
+
+rpart (4.1-9-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version 
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 11 Feb 2015 07:10:41 -0600
+
+rpart (4.1-8-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 28 Mar 2014 06:34:50 -0500
+
+rpart (4.1-7-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 24 Mar 2014 06:33:56 -0500
+
+rpart (4.1-6-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 08 Mar 2014 08:01:16 -0600
+
+rpart (4.1-5-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 25 Jan 2014 16:11:35 -0600
+
+rpart (4.1-4-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 10 Dec 2013 13:40:10 -0600
+
+rpart (4.1-3-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 02 Sep 2013 12:44:57 -0500
+
+rpart (4.1-2-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 15 Aug 2013 08:46:06 -0500
+
+rpart (4.1-1-2) unstable; urgency=low
+
+  * debian/control: Set Build-Depends: to current R version 
+  
+  * (Re-)building with R 3.0.0 (beta)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 26 Mar 2013 06:28:23 -0500
+
+rpart (4.1-1-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 20 Mar 2013 08:22:22 -0500
+
+rpart (4.1-0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 29 Nov 2012 15:54:07 -0600
+
+rpart (4.0-3-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 18 Nov 2012 14:19:02 -0600
+
+rpart (4.0-2-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 14 Nov 2012 08:55:43 -0600
+
+rpart (4.0-1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 26 Oct 2012 12:39:21 -0500
+
+rpart (3.1.55-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 07 Oct 2012 08:45:42 -0500
+
+rpart (3.1.54-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 27 Jun 2012 12:24:02 -0500
+
+rpart (3.1.53-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 01 Jun 2012 07:03:08 -0500
+
+rpart (3.1.52-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Change Depends to ${R:Depends}
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 04 Mar 2012 13:07:00 -0600
+
+rpart (3.1.51-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 16 Jan 2012 09:55:37 -0600
+
+rpart (3.1.50-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 13 Apr 2011 18:05:23 -0500
+
+rpart (3.1.48-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 09 Dec 2010 10:50:11 -0600
+
+rpart (3.1.47-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 03 Nov 2010 11:30:17 -0500
+
+rpart (3.1.46-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 03 Jan 2010 09:38:28 -0600
+
+rpart (3.1.45-2) unstable; urgency=low
+
+  * Rebuilt for R 2.10.0 to work with new R-internal help file conversion
+
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 02 Nov 2009 20:35:35 -0600
+
+rpart (3.1.45-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 05 Aug 2009 09:00:28 -0500
+
+rpart (3.1.44-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Changed Section: to new section 'gnu-r'
+  
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 3.8.1
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 24 May 2009 09:20:39 -0500
+
+rpart (3.1.43-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version 2.8.0
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 10 Mar 2009 07:54:18 -0500
+
+rpart (3.1.42-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version 2.8.0
+  * debian/control: Set Standards-Version: to current version 3.8.0
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 20 Oct 2008 21:13:07 -0500
+
+rpart (3.1.41-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 22 Apr 2008 14:34:29 -0500
+
+rpart (3.1.39-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 3.7.3
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 19 Feb 2008 17:03:37 -0600
+
+rpart (3.1.38-1) unstable; urgency=low
+
+  * New upstream release
+  * Built with R 2.6.0, so setting (Build-)Depends: to 
+    'r-base-(core|dev) >> 2.5.1' to prevent move to testing before R 2.6.0
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 04 Oct 2007 16:49:07 -0500
+
+rpart (3.1.37-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Upgraded (Build-)Depends: to 'r-base-dev (>= 2.5.1)' 
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 28 Jul 2007 18:54:05 -0500
+
+rpart (3.1.36-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Upgraded (Build-)Depends: to 'r-base-dev (>= 2.4.1)' 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 14 Jun 2007 20:57:48 -0500
+
+rpart (3.1.35-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 26 Mar 2007 19:49:49 -0500
+
+rpart (3.1.34-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Upgraded (Build-)Depends: to 'r-base-dev (>= 2.4.1)' 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon,  1 Jan 2007 14:20:24 -0600
+
+rpart (3.1.33-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/rules: Simplified to cdbs-based one-liner sourcing r-cran.mk 
+    (but overriding the default library location as this package is part
+     of the r-recommended bundle which install into /usr/lib/R/library)
+  * debian/control: Upgraded (Build-)Depends: to 'r-base-dev (>= 2.4.0)' 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 30 Nov 2006 20:32:32 -0600
+
+rpart (3.1.32-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 29 Sep 2006 15:16:11 -0500
+
+rpart (3.1.31-1) unstable; urgency=low
+
+  * New upstream release for the upcoming R 2.4.0, built using the 
+    R 2.4.0 releases candidate 
+  * debian/control: Upgraded Build-Depends: to 'r-base-dev (>> 2.3.1)' 
+    and Depends: to 'r-base-core (>> 2.3.1)' accordingly
+
+  * debian/rules: Simplified to cdbs-based one-liner sourcing r-cran.mk 
+    (but overriding the default library location as this package is part
+     of the r-recommended bundle which install into /usr/lib/R/library)
+
+  * debian/control: Standards-Version: upgradeded to 3.7.2
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 21 Sep 2006 17:52:01 -0500
+
+rpart (3.1.29-1) unstable; urgency=low
+
+  * New upstream release corresponding to R 2.3.0 
+  
+  * debian/control: Updated Build{,-Depends}: to r-base-core (>> 2.2.1) 
+  * debian/watch: Updated to version=3
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 18 Apr 2006 21:45:53 -0500
+
+rpart (3.1.27-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri,  9 Dec 2005 21:37:18 -0600
+
+rpart (3.1.26-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu,  8 Dec 2005 19:25:19 -0600
+
+rpart (3.1.24-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Standards-Version: upgradeded to 3.6.2
+  * debian/watch: Corrected regular expression 
+  * debian/post{inst,rm}: No longer call R to update html index
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed,  7 Dec 2005 20:12:31 -0600
+
+rpart (3.1.23-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 19 Apr 2005 21:49:32 -0500
+
+rpart (3.1.22-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu,  3 Feb 2005 22:00:56 -0600
+
+rpart (3.1.21-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/rules: Do not run 'R CMD check' on all architectures
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 21 Nov 2004 19:49:28 -0600
+
+rpart (3.1.20-2) unstable; urgency=low
+
+  * debian/control: Added Versioned Build-Depends: on 
+    r-cran-survival (>= 2.13.2) (Closes: #276108)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 11 Oct 2004 21:16:47 -0500
+
+rpart (3.1.20-1) unstable; urgency=low
+
+  * New upstream release
+
+  * Built under R 2.0.0
+  * debian/control: Updated Build-Depends: and Depends: accordingly
+  * debian/rules: Updated as required under R 2.0.0 and added 'R CMD check'
+  * debian/control: Added r-cran-survival to Build-Depends: to run check
+
+  * debian/watch: Added watch file 
+  * debian/post{inst,rm}: Added to rebuild html help index 
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu,  7 Oct 2004 20:53:08 -0500
+
+rpart (3.1.17-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon,  2 Aug 2004 17:25:20 -0500
+
+rpart (3.1.16-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon,  7 Jun 2004 17:39:19 -0500
+
+rpart (3.1.15-1) unstable; urgency=low
+
+  * New upstream release for the upcoming R 1.9.0 release
+  * Built with 1.9.0 cvs dated 2004.02.29 (in package r-base_1.8.1.cvs.20040229)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu,  4 Mar 2004 19:48:12 -0600
+
+rpart (3.1.13-2) unstable; urgency=low
+
+  * debian/control: Replaces r-recommended (<< 1.9.0), not just <= 1.8.1-1
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun,  1 Feb 2004 17:34:27 -0600
+
+rpart (3.1.13-1) unstable; urgency=low
+
+  * Initial Debian Release as a standalone package rather than as part of
+    the r-recommended package built from the main r-base source package.
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 27 Jan 2004 20:59:07 -0600
+
+
